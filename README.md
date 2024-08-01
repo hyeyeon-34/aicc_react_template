@@ -1,6 +1,10 @@
 <h1 align="center">
   <a href="https://github.com/dec0dOS/amazing-github-template">
+<<<<<<< HEAD
     Marshall From AICC
+=======
+    Hyeyeon From AICC
+>>>>>>> 7e766127dbbe430e466f64c3189cdb99466b6c15
   </a>
 </h1>
 
@@ -18,4 +22,18 @@
 <div align="center">
 <br />
 
+<<<<<<< HEAD
 </div>
+=======
+
+</div>
+<details open="open">
+<summary>Table of Contents</summary>
+
+- [Setting](#setting)
+  - [Built With](#built-with)
+
+</details>
+
+
+>>>>>>> 7e766127dbbe430e466f64c3189cdb99466b6c15
