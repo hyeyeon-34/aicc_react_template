@@ -7,3 +7,9 @@
   --ff-en: 'IBM plex MONO', monospace;
   color-scheme: dark;
 }
+
+.container {
+  margin: auto;
+  padding: 1rem;
+  width: 100%;
+}
