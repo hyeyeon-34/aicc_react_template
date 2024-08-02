@@ -1,5 +1,5 @@
 nav {
-  position: fixed;
+  position: sticky;
   left: 0;
   top: 0;
   border-bottom: 1px solid rgb(64, 64, 64);
@@ -31,7 +31,7 @@ nav {
 .nav_wrapper .logo_title {
   font-family: var(--ff-en);
   font-weight: 500;
-  font-size: 1.25rem;
+  _font-size: 1.25rem;
 }
 
 .nav_wrapper .logo_simbol .logo_dot {
@@ -45,21 +45,28 @@ nav {
 /* NAVIGATION */
 
 .nav_wrapper .navi {
-  display: flex;
+  _display: flex;
   gap: 1.25rem;
   font-family: var(--ff-en);
 }
 
 /* SUB NAVIGATION */
-.nav_wrapper .sub_links {
-  display: flex;
+.sub_links {
+  _display: flex;
   /* align-items: center; */
   gap: 0.5rem;
 }
 
-.nav_wrapper .sub_links a {
+.sub_links a {
   font-family: var(--ff-en);
   border: 1px solid rgb(64, 64, 64);
   padding: 0.25rem 0.75rem;
   border-radius: 0.5rem;
+}
+
+.mode_btn {
+  font-size: 0.625rem;
+  _padding: 0 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(64, 64, 64);
 }
